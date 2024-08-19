@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef3f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #b8738a;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(245, 239, 239, 0.2);
+    text-align: center;
+    max-width: 320px;
+    width: 100%;
+    border: 5px solid #500d18;
+}
+
+.container i {
+    color: #a70606;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bmi-form label {
+    margin-bottom: 5px;
+    color: #0f0f0f;
+    text-align: left;
+}
+
+.bmi-form input, .bmi-form select {
+    padding: 10px;
+    border: 1px solid #181717;
+    border-radius: 5px;
+    background-color: #fffdfd;
+    color: #1f1d1d;
+    font-size: 16px;
+}
+
+.bmi-form button {
+    padding: 10px;
+    background-color: #085a21;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.bmi-form button:hover {
+    background-color: #24b300;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.bmi-scale {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.scale-legend {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.scale-bar {
+    height: 10px;
+    background: linear-gradient(to right, #088d9e 25%, #0e7212 50%, #e07108 75%, #e71c0e 100%);
+    border-radius: 5px;
+    position: relative;
+}
+
+.indicator {
+    width: 2px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: -5px;
+}
+.logo {
+    width: 200px; 
+    height: auto; 
+    display:inline-block; 
+    margin: 0 auto 15px; 
+    border: 5px solid rgb(66, 4, 4);
+}
